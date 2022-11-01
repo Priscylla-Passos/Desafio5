@@ -11,12 +11,16 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@fluentui/react-components": "^9.6.1",
+    "@mui/icons-material": "^5.10.9",
     "@radix-ui/react-slot": "^1.0.1",
     "autoprefixer": "^10.4.12",
     "clsx": "^1.2.1",
+    "phosphor-react": "^1.4.1",
     "postcss": "^8.4.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "latest",
     "tailwindcss": "^3.2.1"
   },
   "devDependencies": {
@@ -32,6 +36,7 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
     "babel-loader": "^8.2.5",
+    "storybook-addon-docs-tabs": "^1.0.3",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }
